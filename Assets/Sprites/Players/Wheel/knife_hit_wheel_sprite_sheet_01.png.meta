@@ -1,0 +1,814 @@
+fileFormatVersion: 2
+guid: b42ae39102d9d437bae229d63d62fa4e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: knife_hit_wheel_sprite_sheet_01_0
+    21300002: knife_hit_wheel_sprite_sheet_01_1
+    21300004: knife_hit_wheel_sprite_sheet_01_2
+    21300006: knife_hit_wheel_sprite_sheet_01_3
+    21300008: knife_hit_wheel_sprite_sheet_01_4
+    21300010: knife_hit_wheel_sprite_sheet_01_5
+    21300012: knife_hit_wheel_sprite_sheet_01_6
+    21300014: knife_hit_wheel_sprite_sheet_01_7
+    21300016: knife_hit_wheel_sprite_sheet_01_8
+    21300018: knife_hit_wheel_sprite_sheet_01_9
+    21300020: knife_hit_wheel_sprite_sheet_01_10
+    21300022: knife_hit_wheel_sprite_sheet_01_11
+    21300024: knife_hit_wheel_sprite_sheet_01_12
+    21300026: knife_hit_wheel_sprite_sheet_01_13
+    21300028: knife_hit_wheel_sprite_sheet_01_14
+    21300030: knife_hit_wheel_sprite_sheet_01_15
+    21300032: knife_hit_wheel_sprite_sheet_01_16
+    21300034: knife_hit_wheel_sprite_sheet_01_17
+    21300036: knife_hit_wheel_sprite_sheet_01_18
+    21300038: knife_hit_wheel_sprite_sheet_01_19
+    21300040: knife_hit_wheel_sprite_sheet_01_20
+    21300042: knife_hit_wheel_sprite_sheet_01_21
+    21300044: knife_hit_wheel_sprite_sheet_01_22
+    21300046: knife_hit_wheel_sprite_sheet_01_23
+    21300048: knife_hit_wheel_sprite_sheet_01_24
+    21300050: knife_hit_wheel_sprite_sheet_01_25
+    21300052: knife_hit_wheel_sprite_sheet_01_26
+    21300054: knife_hit_wheel_sprite_sheet_01_27
+    21300056: knife_hit_wheel_sprite_sheet_01_28
+    21300058: knife_hit_wheel_sprite_sheet_01_29
+    21300060: knife_hit_wheel_sprite_sheet_01_30
+    21300062: knife_hit_wheel_sprite_sheet_01_31
+    21300064: knife_hit_wheel_sprite_sheet_01_32
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1786
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14635f16b9e24430eb9e9bb5624acc34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_1
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1786
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13401589aad95453286b95d34700322c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_2
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1786
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451be8a6c67a84a279a4f3da90d194e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_3
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1786
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01762c3a30b194c1ca325d4bb3bcb97b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_4
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1786
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4454bc6bfc7d243298ee63a663470c16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_5
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1786
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bac50edc50cb453787814570b993377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_6
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1786
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8627c5a8fc8424c3dbd3c7fce819384e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1524
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c033e5cbe9a5d484c86a6f40f7db087c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_8
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1524
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340566b02060b455493f5a35c57707f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_9
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1524
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbe4782003a04810acc0e988771994a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_10
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1524
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4becb1d750463455b941aa690f204b11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_11
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1524
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f235282abda704bb0b8ef9440560fed7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_12
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1524
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfa4f145ec414901ae26ef8b25c0eb2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_13
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1524
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3c13b9eb06b4897a2f382f63e6a7fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1262
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9472e1a0838247d7b05dafef62446ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_15
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1262
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e909bfb584c24c79bd8f7dd43300377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_16
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1262
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0773733b54f35449d9b8b863d1d54b62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_17
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1262
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bddd34bc2a3f437996ea673c0df41ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_18
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1262
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d14b2e0cd9a4a4faeb5b7b558906fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_19
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1392
+        width: 2
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61bc6cc75cae4addabfa49aa15e14c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0860a65f0e2f74f4d969faec214eea8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_21
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1000
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7481ffc2b5614082b690aa32f2644fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_22
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1000
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af63640389f1b4493a3adab06b567b04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 738
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0c0a84fab614035b49774e2c0b421d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_24
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 738
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906f921e7e84e475cb7e70ab7b0b066c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_25
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 738
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c0297433f16433698b5df4bddffa88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 476
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8613c4c44fa4d7c9ef162f1b442a9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_27
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 476
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e877408a36140cea306f0c4d649e78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_28
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 476
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0b808e477c64c71a820fa5f7d782b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 214
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb98fdc54d9ba40cc878dca0fd6c8659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_30
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 214
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317cd6da04fd44720afd260b58a1d7f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_31
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 214
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43515158181804a328bd42fb31de3c26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_hit_wheel_sprite_sheet_01_32
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 281
+        width: 118
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32bf013dc7e044aec8e6074a79c2d998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3fea2132ad3ab46958c09b57e4478f61
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
