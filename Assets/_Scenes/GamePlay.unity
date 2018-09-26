@@ -270,7 +270,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotateSpeedMultiplier: 4
   circleCollider2D: {fileID: 0}
-  knife: {fileID: 1245384857885614, guid: dceb238983f554ce49671a2588c85f69, type: 2}
+  dockedKnife: {fileID: 1245384857885614, guid: 6528da749685f485bb8a290ebb6aab0c,
+    type: 2}
 --- !u!58 &1525902017
 CircleCollider2D:
   m_ObjectHideFlags: 0
