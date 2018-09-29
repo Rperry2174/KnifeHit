@@ -65,9 +65,9 @@ public class wheelCtrl : MonoBehaviour {
 		// dockedKnifeStartPos.y = dockedKnifeStartPos.y + knifeHeight;
 
 		GameObject k = Instantiate(dockedKnife, dockedKnifeStartPos, Quaternion.Euler(0.0f, 0.0f, 90.0f));
-
 		k.name = "docked_knife_0";
     k.transform.parent = transform;
+		k.transform.position += gameObject.transform.position;
 
     // Find angle between bottom of circle and whereve knife is on circle
 		int angleMultiplier = dockedKnifeStartPos.y >= 0 ? 1 : -1;

@@ -268,13 +268,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69758c47554cc4a15828d6a12971b62b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  angles:
-  - 50
-  - 230
   rotateSpeedMultiplier: 4
   circleCollider2D: {fileID: 0}
   dockedKnife: {fileID: 1245384857885614, guid: 6528da749685f485bb8a290ebb6aab0c,
     type: 2}
+  circleColliderRight: {x: 0, y: 0}
 --- !u!58 &1525902017
 CircleCollider2D:
   m_ObjectHideFlags: 0
