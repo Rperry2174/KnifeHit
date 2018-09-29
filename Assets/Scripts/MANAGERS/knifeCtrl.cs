@@ -34,7 +34,7 @@ public class knifeCtrl : MonoBehaviour {
 			gameObject.transform.parent = col.gameObject.transform;
 
 			// iterate gameboard to next knife
-			gameBoard.GetComponent<gameBoardCtrl>().GetNextKnife();
+			gameBoard.GetComponent<gameBoardCtrl>().DequeueKnife();
 			break;
 		case "DockedKnife":
 			gameBoard = col.gameObject.transform.parent.parent.gameObject;

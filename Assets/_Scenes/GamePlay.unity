@@ -276,7 +276,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62e3d7bc3e0fe494c9bbefb754440840, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  numKnives: 4
   currentKnife: 0
+  knives: []
   knife: {fileID: 1245384857885614, guid: dceb238983f554ce49671a2588c85f69, type: 2}
   gameIsWon: -1
 --- !u!4 &1525902019 stripped
