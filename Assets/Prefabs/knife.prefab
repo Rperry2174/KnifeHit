@@ -101,7 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
   gameBoard: {fileID: 0}
-  gravityScale: -1
+  gravityScale: -3
   isDocked: 0
 --- !u!212 &212703073796482138
 SpriteRenderer:

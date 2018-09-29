@@ -7,15 +7,16 @@ public class knifeCtrl : MonoBehaviour {
 	public Rigidbody2D rb;
 	public GameObject gameBoard;
 	public int gravityScale = -1;
-	public bool isDocked = false;
+	public bool isDocked;
 
 	void Start () {
 		rb = gameObject.GetComponent<Rigidbody2D>();
+		isDocked = gameObject.tag == "DockedKnife";
 	}
 
 	void Update () {
 		if (Input.GetMouseButtonDown(0) && rb != null) {
-										rb.gravityScale = gravityScale;
+			rb.gravityScale = gravityScale;
 		}
 	}
 
@@ -24,13 +25,10 @@ public class knifeCtrl : MonoBehaviour {
 		switch (col.gameObject.tag)
 		{
 		case "Wheel":
-			if (isDocked) {
-											return;
-			}
 			gameBoard = col.gameObject.transform.parent.gameObject;
 			// Successfully hit knife_hit_wheel
 			Destroy(rb);
-			isDocked = true;
+			gameObject.tag = "DockedKnife";
 
 			// Set knife_hit_wheel as parent of knife
 			gameObject.transform.parent = col.gameObject.transform;
@@ -39,10 +37,6 @@ public class knifeCtrl : MonoBehaviour {
 			gameBoard.GetComponent<gameBoardCtrl>().GetNextKnife();
 			break;
 		case "DockedKnife":
-		case "Knife":
-			if(isDocked) {
-											return;
-			}
 			gameBoard = col.gameObject.transform.parent.parent.gameObject;
 			Debug.Log("knife gameboard: " + gameBoard);
 			gameBoard.GetComponent<gameBoardCtrl>().SetWinLossStatus(-1);

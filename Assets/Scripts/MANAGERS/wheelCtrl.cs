@@ -17,7 +17,7 @@ public class wheelCtrl : MonoBehaviour {
 		circleColliderRight = new Vector2(circleCollider2D.radius, 0.0f);
 
 		foreach (float angle in angles){
-			GameObject k0 = InstantiateDockedKnife(angle);
+			InstantiateDockedKnife(angle);
 		}
 	}
 
