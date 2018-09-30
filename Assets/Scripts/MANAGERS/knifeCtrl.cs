@@ -33,6 +33,12 @@ public class knifeCtrl : MonoBehaviour {
 			// Set knife_hit_wheel as parent of knife
 			gameObject.transform.parent = col.gameObject.transform;
 
+			Vector3 adjustedPosition = gameObject.transform.position;
+			adjustedPosition.x = col.contacts[0].point.x;
+			adjustedPosition.y = col.contacts[0].point.y;
+
+			gameObject.transform.position = adjustedPosition;
+
 			// iterate gameboard to next knife
 			gameBoard.GetComponent<gameBoardCtrl>().DequeueKnife();
 			break;
