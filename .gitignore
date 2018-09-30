@@ -5,3 +5,4 @@ Packages/
 Temp/
 Assembly-CSharp.csproj
 Knife_HIt.sln
+**/*.DS_Store
