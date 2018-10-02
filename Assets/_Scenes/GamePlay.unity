@@ -276,11 +276,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62e3d7bc3e0fe494c9bbefb754440840, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numKnives: 4
   currentKnife: 0
-  knives: []
-  knife: {fileID: 1245384857885614, guid: dceb238983f554ce49671a2588c85f69, type: 2}
+  numKnives: 4
   gameIsWon: -1
+  blackKnife: {fileID: 1903831924186232, guid: e51a97df74c0a4e8b8229fa621696316, type: 2}
+  knife: {fileID: 1245384857885614, guid: dceb238983f554ce49671a2588c85f69, type: 2}
+  knives: []
+  blackKnives: []
 --- !u!4 &1525902019 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4422288487030880, guid: 43d51b947d5eb425fbd71b4ea32c607f,
