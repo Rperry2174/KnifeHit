@@ -41,11 +41,15 @@ public class knifeCtrl : MonoBehaviour {
 
 			// iterate gameboard to next knife
 			gameBoard.GetComponent<gameBoardCtrl>().DequeueKnife();
+			gameBoard.GetComponent<gameBoardCtrl>().IncrementScore();
+
 			break;
 		case "DockedKnife":
 			gameBoard = col.gameObject.transform.parent.parent.gameObject;
 			Debug.Log("knife gameboard: " + gameBoard);
 			gameBoard.GetComponent<gameBoardCtrl>().SetWinLossStatus(-1);
+			gameBoard.GetComponent<gameBoardCtrl>().DecrementScore();
+
 			Destroy(gameObject);
 			break;
 		case "bonus":

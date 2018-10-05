@@ -2,26 +2,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class gameBoardCtrl : MonoBehaviour
 {
     private Vector2 defaultKnifeStartPos = new Vector2(0.0f, -5.263408f);
     private Vector2 defaultBlackKnifeStartPos = new Vector2(-7.0f, 0.0f);
     private static int BLACK_KNIFE_SPACING = 1;
+    public static int SCORE_INCREMENT = 10;
 
     public int currentKnife = 0;
     public int numKnives = 12;
     public int gameIsWon = 0;
+    public int score = 0;
 
     public GameObject blackKnife;
     public GameObject knife;
     public List < GameObject > knives = new List < GameObject > ();
     public List < GameObject > blackKnives = new List < GameObject > ();
+    public Text scoreText;
 
     void Start()
     {
         Vector2 adjustedBlackKnifePosition = defaultBlackKnifeStartPos;
-
+        scoreText.text = "Score: " + score.ToString();
         for (int i = 0; i < numKnives; i++)
         {
             adjustedBlackKnifePosition.y -= BLACK_KNIFE_SPACING;
@@ -50,7 +54,7 @@ public class gameBoardCtrl : MonoBehaviour
 
             InstantiateKnife(k);
             Destroy(bk);
-            
+
             currentKnife++;
         }
         else
@@ -67,6 +71,18 @@ public class gameBoardCtrl : MonoBehaviour
     public void SetWinLossStatus(int i)
     {
         gameIsWon = i;
+    }
+
+    public void IncrementScore()
+    {
+      score += SCORE_INCREMENT;
+      scoreText.text = "Score: " + score.ToString();
+    }
+
+    public void DecrementScore()
+    {
+      score -= SCORE_INCREMENT;
+      scoreText.text = "Score: " + score.ToString();
     }
 
     GameObject InstantiateKnife(GameObject listKnife, Vector2 ? knifeStartPos = null, bool ? isDocked = false)

@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212703073796482138}
   - component: {fileID: 114496632786236688}
   - component: {fileID: 61620731040375846}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: docked_knife
   m_TagString: DockedKnife
   m_Icon: {fileID: 0}
